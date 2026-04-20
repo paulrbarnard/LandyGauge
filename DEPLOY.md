@@ -23,22 +23,22 @@ git push -u origin main
 
 ## 4. Configure Custom Domain on GitHub
 
-1. In the same Pages settings page, enter `www.toxiccelery.co.uk` in the Custom domain field
+1. In the same Pages settings page, enter `www.toxiccelery.com` in the Custom domain field
 2. Click Save
 3. Wait for the DNS check (it will fail until you do step 5)
 
 ## 5. Configure DNS at 123-Reg
 
-Log into https://www.123-reg.co.uk and go to your domain `toxiccelery.co.uk` DNS settings.
+Log into https://www.123-reg.co.uk and go to your domain `toxiccelery.com` DNS settings.
 
-### For `www.toxiccelery.co.uk` (recommended primary):
+### For `www.toxiccelery.com` (recommended primary):
 
 Add a **CNAME** record:
 - **Host**: `www`
 - **Points to**: `paulrbarnard.github.io`
 - **TTL**: 3600
 
-### For bare `toxiccelery.co.uk` (redirect to www):
+### For bare `toxiccelery.com` (redirect to www):
 
 Add these **A** records pointing to GitHub's IP addresses:
 - **Host**: (leave blank or `@`)
@@ -63,7 +63,7 @@ Remove any existing A records or CNAME records for `www` or `@` that point to Ho
 This is already handled by GitHub when you set the custom domain in Settings, but if needed:
 
 ```bash
-echo "www.toxiccelery.co.uk" > static/CNAME
+echo "www.toxiccelery.com" > static/CNAME
 git add static/CNAME && git commit -m "Add CNAME for custom domain" && git push
 ```
 
