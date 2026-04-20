@@ -16,10 +16,6 @@ The gauge is built around the **Waveshare ESP32-S3 1.85" Round LCD** module, wit
 | ESP32-S3 (N16R8) | Main processor with WiFi and BLE |
 | PCF85063 | Real-time clock (battery backed) |
 | QMI8658 | 6-axis IMU (accelerometer + gyroscope) |
-| LIS3MDL | 3-axis magnetometer (compass) |
-| MCP9600 | Thermocouple interface (EGT) |
-| ADS1115 | 16-bit ADC (boost pressure) |
-| MCP23017 | I/O expander (expansion board inputs) |
 | MAX98357A | I2S audio amplifier (warning beeps) |
 
 ### Downloads — Gauge Supply PCB
@@ -40,6 +36,14 @@ The optional expansion board connects to the gauge via a 6core cable supporting 
 
 ![RearView](/images/RearView.jpeg)
 
+The Expansion Board provides the additional IO functions below
+
+| Component | Purpose |
+|-----------|---------|
+| LIS3MDL | 3-axis magnetometer (compass) |
+| MCP9600 | Thermocouple interface (EGT) |
+| ADS1115 | 16-bit ADC (boost pressure) |
+| MCP23017 | I/O expander (expansion board inputs) |
 
 | Input | Function |
 |-------|----------|
@@ -53,6 +57,7 @@ The optional expansion board connects to the gauge via a 6core cable supporting 
 | IO7 | Full Beam (High) |
 
 | Output | Function |
+|--------|----------|
 | Out2 | Wadding enable |
 | Out3 | Low Fan Enable |
 | Out4 | High Fan Enable |

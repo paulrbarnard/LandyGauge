@@ -22,7 +22,8 @@ It packs a surprising number of features into a compact round display:
 - **Cooling** — coolant temperature and fan status monitoring
 - **Tilt Meter** — vehicle tilt angle display with customisable image
 
-The project supports both the touch and non-touch versions of the Waveshare 1.85 inch display.  The expansion board is I2C connected to provide additional sensor and vehicle signal inputs.  Without the expansion board the display provides clock, TPMS, tilt and incline.  Add the expansion board for coolant temperature, EGT, Boost and some custom wadding and fan control specific to my Landrover.  The expansion bord has eight 12V safe inputs and eight output capable of switching automotive relays if you want to develop your own custom functions.
+The project supports both the touch and non-touch versions of the Waveshare 1.85 inch display.  The expansion board is I2C connected to provide additional sensor and vehicle signal inputs.  Without the expansion board the display provides clock, TPMS, tilt and incline.  Add the expansion board for coolant temperature, EGT, Boost and some custom wadding and fan control specific to my Landrover.  The expansion board has eight 12V safe inputs and eight outputs capable of switching automotive relays.  Lots of expansion to develop your own custom functions.
+The gauge has an SDCard that hosts custom voice messages and the Wavweshare display also supports voice input if your want to go that route.
 
 ## Why Open Source?
 
