@@ -38,3 +38,5 @@ The gauge is built around:
 - **Expansion Board** (optional) — adds vehicle signal inputs (ignition, lights, fans, coolant)
 
 See the [Hardware](/hardware/) section for full details.
+
+For complete usage instructions, see the [User Manual](/user-manual/).

@@ -53,6 +53,11 @@ exhaust gas temperature, boost pressure, artificial horizon, and more — all on
     url = "/build-guide/"
     weight = 40
   [[menu.main]]
+    identifier = "user-manual"
+    name = "User Manual"
+    url = "/user-manual/"
+    weight = 45
+  [[menu.main]]
     identifier = "blog"
     name = "Blog"
     url = "/blog/"
