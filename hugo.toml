@@ -29,7 +29,7 @@ exhaust gas temperature, boost pressure, artificial horizon, and more — all on
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/YOUR_USERNAME/LandyGauge"
+    url = "https://github.com/paulrbarnard/LandyGauge"
 
 [menu]
   [[menu.main]]

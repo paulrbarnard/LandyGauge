@@ -13,7 +13,7 @@ The firmware is written in C using the **ESP-IDF v5.5.1** framework with **LVGL 
 
 The full firmware source is available on GitHub:
 
-- [LandyGauge on GitHub](https://github.com/YOUR_USERNAME/LandyGauge)
+- [LandyGauge on GitHub](https://github.com/paulrbarnard/LandyGauge)
 
 ## Features
 

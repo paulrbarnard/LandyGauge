@@ -11,7 +11,7 @@
 
 ```bash
 cd /Users/pbarnard/Documents/Web/LandyGauge
-git remote add origin git@github.com:YOUR_USERNAME/LandyGauge.git
+git remote add origin https://github.com/paulrbarnard/LandyGauge.git
 git push -u origin main
 ```
 
@@ -35,7 +35,7 @@ Log into https://www.123-reg.co.uk and go to your domain `toxiccelery.co.uk` DNS
 
 Add a **CNAME** record:
 - **Host**: `www`
-- **Points to**: `YOUR_USERNAME.github.io`
+- **Points to**: `paulrbarnard.github.io`
 - **TTL**: 3600
 
 ### For bare `toxiccelery.co.uk` (redirect to www):
