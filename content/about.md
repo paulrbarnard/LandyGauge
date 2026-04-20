@@ -7,18 +7,22 @@ ShowToc: false
 
 ## What is the Landy Gauge?
 
-The Landy Gauge is an open-source vehicle instrument gauge built around the Waveshare ESP32-S3 1.85" round LCD module. Originally designed for Land Rover Defenders, it's adaptable to any vehicle.
+The Landy Gauge is a 52mm standard vehicle instrument gauge.  It is an open-source project built around the Waveshare ESP32-S3 1.85" round LCD module. Originally designed for my Land Rover Defender, it's adaptable to any vehicle.
+
+![Clock](/images/Clock.jpeg)
 
 It packs a surprising number of features into a compact round display:
 
 - **Compass** — digital compass with vehicle heading and bearing
-- **Inclinometer** — pitch and roll with artificial horizon display
+- **Inclinometer** — pitch with customisable Landrover image
 - **Tyre Pressures** — BLE TPMS sensor monitoring for up to 4 tyres
 - **Exhaust Gas Temperature** — thermocouple-based EGT monitoring
 - **Boost Pressure** — MAP sensor-based turbo boost gauge
 - **Clock** — RTC-backed clock with NTP sync via WiFi
 - **Cooling** — coolant temperature and fan status monitoring
-- **Tilt Meter** — vehicle tilt angle display
+- **Tilt Meter** — vehicle tilt angle display with customisable image
+
+The project supports both the touch and non-touch versions of the Waveshare 1.85 inch display.  The expansion board is I2C connected to provide additional sensor and vehicle signal inputs.  Without the expansion board the display provides clock, TPMS, tilt and incline.  Add the expansion board for coolant temperature, EGT, Boost and some custom wadding and fan control specific to my Landrover.  The expansion bord has either 12V safe inputs and eight output capable of switching automotive relays if you want to develop your own custom functions.
 
 ## Why Open Source?
 
@@ -34,7 +38,7 @@ Everything you need is here:
 
 The gauge is built around:
 - **Waveshare ESP32-S3 1.85" Touch LCD** — the main display module
-- **Custom PCB** — connects sensors, RTC, IMU, and I/O
+- **Supply PCB** — connects 12V vehicle power or the expansion board to the Waveshare display.
 - **Expansion Board** (optional) — adds vehicle signal inputs (ignition, lights, fans, coolant)
 
 See the [Hardware](/hardware/) section for full details.
