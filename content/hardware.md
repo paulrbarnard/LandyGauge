@@ -72,7 +72,7 @@ Other outputs are Spare
 | [LandyGauge.kicad_pcb](/downloads/pcb-expansion-board/LandyGauge.kicad_pcb) | PCB layout |
 | [LandyGauge.kicad_pro](/downloads/pcb-expansion-board/LandyGauge.kicad_pro) | KiCad project |
 | [LandyGauge.step](/downloads/pcb-expansion-board/LandyGauge.step) | 3D STEP model |
-| [Gerbers_PCBWay.zip](/downloads/pcb-expansion-board/Gerbers_PCBWay.zip) | Gerber files (PCBWay) |
+| [gerbers.zip](/downloads/pcb-expansion-board/gerbers.zip) | Gerber files |
 | [ExpansionBoard.pdf](/downloads/pcb-expansion-board/ExpansionBoard.pdf) | Schematic PDF |
 
 ## Fan Relay Board
