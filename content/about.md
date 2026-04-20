@@ -22,14 +22,14 @@ It packs a surprising number of features into a compact round display:
 - **Cooling** — coolant temperature and fan status monitoring
 - **Tilt Meter** — vehicle tilt angle display with customisable image
 
-The project supports both the touch and non-touch versions of the Waveshare 1.85 inch display.  The expansion board is I2C connected to provide additional sensor and vehicle signal inputs.  Without the expansion board the display provides clock, TPMS, tilt and incline.  Add the expansion board for coolant temperature, EGT, Boost and some custom wadding and fan control specific to my Landrover.  The expansion bord has either 12V safe inputs and eight output capable of switching automotive relays if you want to develop your own custom functions.
+The project supports both the touch and non-touch versions of the Waveshare 1.85 inch display.  The expansion board is I2C connected to provide additional sensor and vehicle signal inputs.  Without the expansion board the display provides clock, TPMS, tilt and incline.  Add the expansion board for coolant temperature, EGT, Boost and some custom wadding and fan control specific to my Landrover.  The expansion bord has eight 12V safe inputs and eight output capable of switching automotive relays if you want to develop your own custom functions.
 
 ## Why Open Source?
 
 This project started as a personal build for my own Defender. I've shared it so others can build one, modify it, and hopefully contribute improvements back.
 
 Everything you need is here:
-- **Firmware source code** — ESP-IDF based, fully documented
+- **Firmware source code** — ESP-IDF based, fully documented.  This was 100% vibe coded using Claude
 - **Circuit schematics** — KiCad designs for the gauge and expansion board
 - **3D models** — printable cases for the gauge and expansion board
 - **Build instructions** — step-by-step assembly guide

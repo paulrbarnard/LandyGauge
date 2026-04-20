@@ -13,27 +13,27 @@ The firmware is written in C using the **ESP-IDF v5.5.1** framework with **LVGL 
 
 The full firmware source is available on GitHub:
 
-- [LandyGauge on GitHub](https://github.com/paulrbarnard/LandyGauge)
+- [LandyGauge Firmware on GitHub](https://github.com/paulrbarnard/LandyGaugeFirmware)
 
 ## Features
 
 ### Display Gauges
 - **Compass** — digital heading with lubber line, bearing display, magnetometer calibration
-- **Inclinometer** — pitch and roll angles from IMU
-- **Artificial Horizon** — visual pitch/roll indicator
+- **Inclinometer** — pitch angle from IMU
+- **Artificial Horizon** — visual pitch/roll indicator (currently commented out of the gauge sequense)
 - **Boost Gauge** — turbo boost pressure from MAP sensor (ADS1115 ADC)
 - **EGT** — exhaust gas temperature via K-type thermocouple (MCP9600)
 - **Tyre Pressures** — BLE TPMS with 4-sensor pairing and persistent IDs
 - **Clock** — RTC-backed with NTP time sync and timezone support (34 zones)
-- **Cooling Status** — coolant level and fan speed indicators
+- **Cooling Status** — coolant level and fan speed indicators.  Coolant temperature from Defender temperature sender.
 - **Tilt Meter** — lateral tilt angle
 
 ### System Features
 - **Night Mode** — automatic day/night switching via expansion board (headlights) or solar twilight calculation
 - **Custom Images** — load personalised vehicle images from SD card
-- **WiFi** — WPA2 connection for NTP time sync
-- **Audio** — warning beeps via I2S amplifier
-- **Touch** — capacitive touch for menu navigation
+- **WiFi** — WPA2 connection for NTP time sync.  Tried once a day to sync on home wifi and can be commanded to sync via smart phone hotspot.  Selectable timezone for global use with automatic daylight saving.
+- **Audio** — warning beeps via I2S amplifier.  Voice warnings for critical events.
+- **Touch** — capacitive touch for menu navigation with Touch version of Waveshare display
 - **Settings** — persistent calibration and configuration via NVS
 
 ## Building the Firmware
@@ -60,7 +60,7 @@ idf.py -p /dev/tty.usbmodem21301 monitor
 
 ## Configuration
 
-The gauge is configured through touch-screen menus. Key settings include:
+The gauge is configured through screen menus. Key settings include:
 - WiFi SSID and password
 - Timezone selection
 - Compass calibration

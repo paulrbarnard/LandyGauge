@@ -7,7 +7,7 @@ ShowToc: true
 
 ## Main Gauge Board
 
-The gauge is built around the **Waveshare ESP32-S3 1.85" Round Touch LCD** module, with a custom PCB providing sensor connections and power management.
+The gauge is built around the **Waveshare ESP32-S3 1.85" Round LCD** module, with a custom PCB providing sensor connections and power management.
 
 ### Key Components
 
@@ -36,10 +36,14 @@ The power supply and interconnect PCB fits inside the 52mm gauge housing alongsi
 
 ## Expansion Board
 
-The optional expansion board connects to the gauge via a 4-wire I2C cable (500mm max, 100kHz) and provides vehicle signal inputs through a MCP23017 I/O expander:
+The optional expansion board connects to the gauge via a 6core cable supporting 4-wire I2C (500mm max, 100kHz) and the 12V vehicle supply.  
+
+![RearView](/images/RearView.jpeg)
+
 
 | Input | Function |
 |-------|----------|
+| IO0 | Spare
 | IO1 | Ignition |
 | IO2 | Sidelights |
 | IO3 | Fan Low Speed |
@@ -47,6 +51,13 @@ The optional expansion board connects to the gauge via a 4-wire I2C cable (500mm
 | IO5 | Coolant Level Low |
 | IO6 | Low Beam (Dipped) |
 | IO7 | Full Beam (High) |
+
+| Output | Function |
+| Out2 | Wadding enable |
+| Out3 | Low Fan Enable |
+| Out4 | High Fan Enable |
+
+Other outputs are Spare
 
 ### Downloads — Expansion Board PCB
 
@@ -83,7 +94,7 @@ The fan relay board provides switched outputs for cooling fan control.
 
 ## 3D Printed Cases
 
-The gauge housing is a 52mm case designed to hold the Waveshare module and gauge supply PCB.
+The gauge housing is a 52mm case designed to hold the Waveshare module and gauge supply PCB.  Two alternative bezels are provided to support Waveshare displays with and without touch support.  I have had good results printing with PET-G on a BambuLabs printer using the default settings and 0.4mm nozzel.  Note that the walls of the gauge are thinner than I would have liked to be able to fit the standard 52mm gauge opening in a dash.  The button Plug is to blank the connector for the buttons.  The buttons are optional on the touch version.  That part needs some flexibilty so I have printed it in TPU for AMS.  If you anticipate dismantling the gauge then printing the bezel in TPU lets you put it on and off multiple times.  Printing the bezel in PET-G makes for a one time assembly, as either the bezel or the body are likely to break on disassembly.
 
 ### Downloads — 3D Models
 
