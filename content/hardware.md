@@ -32,7 +32,7 @@ The power supply and interconnect PCB fits inside the 52mm gauge housing alongsi
 | [GaugeSupply.kicad_pcb](/downloads/pcb-gauge-supply/GaugeSupply.kicad_pcb) | PCB layout |
 | [GaugeSupply.kicad_pro](/downloads/pcb-gauge-supply/GaugeSupply.kicad_pro) | KiCad project |
 | [GaugeSupply.step](/downloads/pcb-gauge-supply/GaugeSupply.step) | 3D STEP model |
-| [GaugeSupply.zip](/downloads/pcb-gauge-supply/GaugeSupply.zip) | Gerber files for manufacturing |
+| [gerbers.zip](/downloads/pcb-gauge-supply/gerbers.zip) | Gerber files for manufacturing |
 
 ## Expansion Board
 
