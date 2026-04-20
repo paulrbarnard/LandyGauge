@@ -1,0 +1,70 @@
+baseURL = "https://www.toxiccelery.co.uk/"
+languageCode = "en-gb"
+title = "Landy Gauge"
+theme = "PaperMod"
+
+# Build settings
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[params]
+  description = "Open-source ESP32-S3 vehicle instrument gauge for Land Rover Defenders and other vehicles"
+  author = "Toxic Celery"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "Landy Gauge"
+    Content = """
+An open-source vehicle instrument gauge built around the ESP32-S3, designed for Land Rover Defenders \
+but adaptable to any vehicle. Features include compass, inclinometer, tyre pressures (BLE TPMS), \
+exhaust gas temperature, boost pressure, artificial horizon, and more — all on a 1.85\" round LCD."""
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/YOUR_USERNAME/LandyGauge"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "hardware"
+    name = "Hardware"
+    url = "/hardware/"
+    weight = 20
+  [[menu.main]]
+    identifier = "firmware"
+    name = "Firmware"
+    url = "/firmware/"
+    weight = 30
+  [[menu.main]]
+    identifier = "build-guide"
+    name = "Build Guide"
+    url = "/build-guide/"
+    weight = 40
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 50
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+    codeFences = true
+  [markup.goldmark.renderer]
+    unsafe = true
