@@ -99,7 +99,9 @@ The fan relay board provides switched outputs for cooling fan control.
 
 ## 3D Printed Cases
 
-The gauge housing is a 52mm case designed to hold the Waveshare module and gauge supply PCB.  Two alternative bezels are provided to support Waveshare displays with and without touch support.  I have had good results printing with PET-G on a BambuLabs printer using the default settings and 0.4mm nozzel.  Note that the walls of the gauge are thinner than I would have liked to be able to fit the standard 52mm gauge opening in a dash.  The button Plug is to blank the connector for the buttons.  The buttons are optional on the touch version.  That part needs some flexibilty so I have printed it in TPU for AMS.  If you anticipate dismantling the gauge then printing the bezel in TPU lets you put it on and off multiple times.  Printing the bezel in PET-G makes for a one time assembly, as either the bezel or the body are likely to break on disassembly.
+![CAD model](/images/CAD.jpg)
+
+The gauge housing is a 52mm case designed to hold the Waveshare module and gauge supply PCB.  Two alternative bezels are provided to support Waveshare displays with and without touch support.  I have had good results printing with PET-G on a BambuLabs printer using the default settings and 0.4mm nozzel.  Note that the walls of the gauge are thinner than I would have liked to be able to fit the standard 52mm gauge opening in a dash.  The Button Plug is to blank the connector for the buttons if using the touch interface.  The buttons are optional on the touch version.  The plug needs some flexibilty so I have printed it in TPU for AMS.  If you anticipate dismantling the gauge then printing the bezel in TPU lets you put it on and off multiple times.  Printing the bezel in PET-G makes for a one time assembly, as either the bezel or the body are likely to break on disassembly.
 
 ### Downloads — 3D Models
 

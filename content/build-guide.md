@@ -12,7 +12,7 @@ This guide walks through building a Landy Gauge from scratch. You'll need basic 
 ## What You'll Need
 
 ### Main Gauge
-- Waveshare ESP32-S3 1.85" Round Touch LCD module
+- Waveshare ESP32-S3 1.85" Round Touch or non touch LCD module
 - Custom gauge PCB (KiCad files provided)
 - Components as per the BOM
 - 3D printed case
@@ -21,7 +21,7 @@ This guide walks through building a Landy Gauge from scratch. You'll need basic 
 - Custom expansion board PCB
 - MCP23017 I/O expander
 - Components as per the BOM
-- 4-wire I2C cable (recommended: 500mm max)
+- 6-wire cable (recommended: 500mm max). This is actually a banbu labs AMS interconnect cable.
 - 3D printed case
 
 ### Sensors
@@ -50,11 +50,7 @@ See the [Firmware](/firmware/) page for build and flash instructions.
 
 ### 4. Sensor Installation
 
-*Detailed sensor wiring instructions coming soon*
-
-### 5. Vehicle Mounting
-
-*Mounting guide coming soon*
+[GaugeWire.kicad_sch](/downloads/wiring/GaugeWire.kicad_sch)
 
 ## Expansion Board Installation
 

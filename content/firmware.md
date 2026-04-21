@@ -18,15 +18,15 @@ The full firmware source is available on GitHub:
 ## Features
 
 ### Display Gauges
-- **Compass** — digital heading with lubber line, bearing display, magnetometer calibration
-- **Inclinometer** — pitch angle from IMU
-- **Artificial Horizon** — visual pitch/roll indicator (currently commented out of the gauge sequense)
+- **Clock** — RTC-backed with NTP time sync and timezone support (34 zones)
+- **TPMS** - Tire preasure monitor supporting 4 BTLE sensors
 - **Boost Gauge** — turbo boost pressure from MAP sensor (ADS1115 ADC)
 - **EGT** — exhaust gas temperature via K-type thermocouple (MCP9600)
-- **Tyre Pressures** — BLE TPMS with 4-sensor pairing and persistent IDs
-- **Clock** — RTC-backed with NTP time sync and timezone support (34 zones)
 - **Cooling Status** — coolant level and fan speed indicators.  Coolant temperature from Defender temperature sender.
 - **Tilt Meter** — lateral tilt angle
+- **Inclinometer** — pitch angle from IMU
+- **Compass** — digital heading with lubber line, bearing display, magnetometer calibration
+- **Artificial Horizon** — visual pitch/roll indicator (currently commented out of the gauge sequense)
 
 ### System Features
 - **Night Mode** — automatic day/night switching via expansion board (headlights) or solar twilight calculation
