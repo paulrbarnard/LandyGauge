@@ -38,7 +38,7 @@ Everything you need is here:
 ## Hardware Overview
 
 The gauge is built around:
-- **Waveshare ESP32-S3 1.85" Touch LCD** — the main display module
+- **Waveshare ESP32-S3 1.85" Touch or non touch LCD** — the main display module
 - **Supply PCB** — connects 12V vehicle power or the expansion board to the Waveshare display.
 - **Expansion Board** (optional) — adds vehicle signal inputs (ignition, lights, fans, coolant)
 

@@ -6,7 +6,7 @@ tags: ["announcement"]
 summary: "The Landy Gauge project is now open source — firmware, schematics, and 3D models all available."
 ---
 
-After months of development, the Landy Gauge project is now available as open source.
+The Landy Gauge project is now available as open source.
 
 ## What's Included
 
@@ -20,7 +20,8 @@ After months of development, the Landy Gauge project is now available as open so
 The gauge packs a lot into a 1.85" round LCD:
 
 - Digital compass with magnetometer calibration
-- Inclinometer with artificial horizon
+- Tilt meter
+- Inclinometer 
 - BLE TPMS tyre pressure monitoring
 - Exhaust gas temperature (K-type thermocouple)
 - Turbo boost pressure
@@ -29,6 +30,7 @@ The gauge packs a lot into a 1.85" round LCD:
 - Automatic day/night mode
 - Custom vehicle images from SD card
 - Warning audio via I2S amplifier
+![Clock](/images/Clock.jpeg)
 
 ## What's Next
 

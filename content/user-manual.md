@@ -31,7 +31,9 @@ The gauge supports two display modes:
 - **Day Mode** — White/bright accents on a dark background. Used when vehicle lights are off (or before dusk).
 - **Night Mode** — Green accents on a dark background with reduced backlight brightness.
 
-**With expansion board:** Activates automatically when the sidelights AND headlights (dip or full beam) are both on. This prevents night mode triggering from a momentary headlight flash or parking lights alone.
+This colour scheme is selected to reflect the existing landrover Defender gauges.  The day and night colours and the accents can be changed in the code.
+
+**With expansion board:** Night mode activates automatically when the sidelights AND headlights (dip or full beam) are both on. This prevents night mode triggering from a momentary headlight flash or parking lights alone.
 
 **Without expansion board:** Night mode is determined automatically by the time of day using a civil twilight calculation (sun 6° below the horizon). The calculation uses the representative latitude of the selected timezone and the current date from the RTC, so it adjusts throughout the year — earlier dusk in winter, later in summer. For accurate results, ensure the correct timezone is selected and the clock has been synced via NTP.
 

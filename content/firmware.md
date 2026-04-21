@@ -19,10 +19,10 @@ The full firmware source is available on GitHub:
 
 ### Display Gauges
 - **Clock** — RTC-backed with NTP time sync and timezone support (34 zones)
-- **TPMS** - Tire preasure monitor supporting 4 BTLE sensors
 - **Boost Gauge** — turbo boost pressure from MAP sensor (ADS1115 ADC)
 - **EGT** — exhaust gas temperature via K-type thermocouple (MCP9600)
 - **Cooling Status** — coolant level and fan speed indicators.  Coolant temperature from Defender temperature sender.
+- **TPMS** - Tire preasure monitor supporting 4 BTLE sensors
 - **Tilt Meter** — lateral tilt angle
 - **Inclinometer** — pitch angle from IMU
 - **Compass** — digital heading with lubber line, bearing display, magnetometer calibration
