@@ -30,11 +30,11 @@ The power supply and interconnect PCB fits inside the 52mm gauge housing alongsi
 | [GaugeSupply.step](/downloads/pcb-gauge-supply/GaugeSupply.step) | 3D STEP model |
 | [gerbers.zip](/downloads/pcb-gauge-supply/gerbers.zip) | Gerber files for manufacturing |
 
+![RearView](/images/RearView.jpeg)
+
 ## Expansion Board
 
 The optional expansion board connects to the gauge via a 6core cable supporting 4-wire I2C (500mm max, 100kHz) and the 12V vehicle supply.  
-
-![RearView](/images/RearView.jpeg)
 
 The Expansion Board provides the additional IO functions below
 
