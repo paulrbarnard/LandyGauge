@@ -11,7 +11,7 @@ I'm about to retire and while no longer expecting to circumnavigate the world or
 This is how the dash looks completely standard and how I want it to look normally
 ![300Tdi Dash](/images/Dash.jpeg)
 My solution for the extra gauges is to reproduce the clock and have 'hidden' gauges that pop up when attention is needed or that I can select manualy. Here is a close up of the origional clock and my reproduction.  I took a couple of liberties as the straight hands were programaticly more efficient than the tappered ones on the real clock and I also added the old landrover logo to mine.  My origional didn't have it but there are clocks with both the old flash logo and the newer oval logo.
-![Origional Clock](/images/sOrigClk.jpeg) ![3Landy Gauge Clock](/images/sClock.jpeg)
+![Origional Clock](/images/OrigClk.jpeg) ![3Landy Gauge Clock](/images/sClock.jpeg)
 
 As I worked on this project it inevitably suffered from feature creep.  When I designed the expansion board I realised I could incorporate monitoring of my cooling system, handle the switching from day to night mode.  Defender gauges light up with a green glow and suffer from light bleed over the dial which i tried to replicate.  My gauges feature images of my Landrover and I made the lights come on when it is dark...  
 ![Landy Gauge Tilt gauge at night](/images/sTiltD.jpeg)

@@ -107,13 +107,53 @@ The gauge housing is a 52mm case designed to hold the Waveshare module and gauge
 
 | File | Description |
 |------|-------------|
-| [52mm Gauge Housing.f3z](/downloads/3d-models/52mm%20Gauge%20Housing.f3z) | Fusion 360 source (full assembly) |
-| [Case.obj](/downloads/3d-models/Case.obj) | Main case body (printable) |
-| [Cover.obj](/downloads/3d-models/Cover.obj) | Rear cover (printable) |
-| [Bezel - Touch.obj](/downloads/3d-models/Bezel%20-%20Touch.obj) | Front bezel for touch version (printable) |
-| [Bezel - Non Touch.obj](/downloads/3d-models/Bezel%20-%20Non%20Touch.obj) | Front bezel for non-touch version (printable) |
-| [Nut.obj](/downloads/3d-models/Nut.obj) | Mounting nut (printable) |
-| [ButtonPlug.obj](/downloads/3d-models/ButtonPlug.obj) | Button plug (printable) |
+| [52mm Gauge Housing.f3z](/downloads/3d-models/gauge-housing/52mm%20Gauge%20Housing.f3z) | Fusion 360 source (full assembly) |
+| [Case.obj](/downloads/3d-models/gauge-housing/Case.obj) | Main case body (printable) |
+| [Cover.obj](/downloads/3d-models/gauge-housing/Cover.obj) | Rear cover (printable) |
+| [Bezel - Touch.obj](/downloads/3d-models/gauge-housing/Bezel%20-%20Touch.obj) | Front bezel for touch version (printable) |
+| [Bezel - Non Touch.obj](/downloads/3d-models/gauge-housing/Bezel%20-%20Non%20Touch.obj) | Front bezel for non-touch version (printable) |
+| [Nut.obj](/downloads/3d-models/gauge-housing/Nut.obj) | Mounting nut (printable) |
+| [ButtonPlug.obj](/downloads/3d-models/gauge-housing/ButtonPlug.obj) | Button plug (printable) |
+
+### Expansion Board Enclosure
+
+The expansion board enclosure is a separate printed box for mounting the optional expansion PCB.  The assembly includes the main box, lid, cable management parts, and internal clamps to secure the PCB and wiring.
+
+| File | Description |
+|------|-------------|
+| [ExpansionBox.f3z](/downloads/3d-models/expansion-box/ExpansionBox.f3z) | Fusion 360 source assembly |
+| [Base.obj](/downloads/3d-models/expansion-box/Base.obj) | Main enclosure body |
+| [lid.obj](/downloads/3d-models/expansion-box/lid.obj) | Enclosure lid |
+| [BoardClamp.obj](/downloads/3d-models/expansion-box/BoardClamp.obj) | PCB retaining clamp |
+| [CableClamp.obj](/downloads/3d-models/expansion-box/CableClamp.obj) | Cable clamp |
+| [wireGuide.obj](/downloads/3d-models/expansion-box/wireGuide.obj) | Wire guide |
+| [lockTab.obj](/downloads/3d-models/expansion-box/lockTab.obj) | Locking tab |
+| [grommit.obj](/downloads/3d-models/expansion-box/grommit.obj) | Cable grommet |
+
+### Fan Relay Enclosures
+
+Two fan relay enclosure variants are provided.  **Type1** is intended for interior mounting.  **Type2** is intended for use in the engine bay and includes sealing parts for a more protected installation.
+
+#### Fan Relay Box Type1
+
+| File | Description |
+|------|-------------|
+| [FanRelayBoxType1.f3z](/downloads/3d-models/fan-relay-box-type1/FanRelayBoxType1.f3z) | Fusion 360 source assembly |
+| [Base.obj](/downloads/3d-models/fan-relay-box-type1/Base.obj) | Main enclosure body |
+| [lid.obj](/downloads/3d-models/fan-relay-box-type1/lid.obj) | Enclosure lid |
+| [gromit.obj](/downloads/3d-models/fan-relay-box-type1/gromit.obj) | Cable grommet |
+
+#### Fan Relay Box Type2
+
+| File | Description |
+|------|-------------|
+| [FanRelayBoxType2.f3z](/downloads/3d-models/fan-relay-box-type2/FanRelayBoxType2.f3z) | Fusion 360 source assembly |
+| [FanBoxGaskit.f3d](/downloads/3d-models/fan-relay-box-type2/FanBoxGaskit.f3d) | Fusion 360 gasket source |
+| [Base.obj](/downloads/3d-models/fan-relay-box-type2/Base.obj) | Main enclosure body |
+| [lid.obj](/downloads/3d-models/fan-relay-box-type2/lid.obj) | Enclosure lid |
+| [Gaskit.obj](/downloads/3d-models/fan-relay-box-type2/Gaskit.obj) | Printable gasket |
+| [lid washer.obj](/downloads/3d-models/fan-relay-box-type2/lid%20washer.obj) | Lid washer |
+| [Grommit.obj](/downloads/3d-models/fan-relay-box-type2/Grommit.obj) | Cable grommet |
 
 ## Bill of Materials
 

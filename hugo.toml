@@ -25,7 +25,9 @@ buildExpired = false
     Content = """
 An open-source vehicle instrument gauge built around the ESP32-S3, designed for Land Rover Defenders \
 but adaptable to any vehicle. Features include compass, inclinometer, tyre pressures (BLE TPMS), \
-exhaust gas temperature, boost pressure, artificial horizon, and more — all on a 1.85\" round LCD."""
+exhaust gas temperature, boost pressure, artificial horizon, and more - all on a 1.85\" round LCD.
+
+![Landy Gauge displays](/images/Gauges.jpeg)"""
 
   [[params.socialIcons]]
     name = "github"
