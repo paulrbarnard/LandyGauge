@@ -64,6 +64,11 @@ exhaust gas temperature, boost pressure, artificial horizon, and more - all on a
     name = "Blog"
     url = "/blog/"
     weight = 50
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 60
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
