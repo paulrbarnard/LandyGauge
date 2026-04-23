@@ -43,17 +43,24 @@ The Waveshare boards are great but they do have one design choice that makes the
 The solution is to replace the right angle connectors with vertical versions.  This reverses the pin out of the connector but the gauge Supply PCB flips it back again letting you use a 1-1 cable.
 ![Replaced Vertical Connectors](/images/LGCon.jpeg)
 
-The challenge is that the Waveshare has the LCD fitted which is temperature sensitive so you need to be a bit careful when removing and reflowing the new conectors.  I place the waveshare LCD down on a block of metal to keep the LCD cool as I use a hot air gun to remove the connector. A further complication once you have the connectors swapped is the cables are tiny.  Making up cables needs, at least for my 66 year old eyes, a magnifing setup, tweezers and a lot of swearing.  As a consequnce I now don't replace the conector I just remove the right angle connector and solder the cables that come with the display directly to the PCB.  A bit of resin over the soldered joint holds it all in place.
+The challenge is that the Waveshare has the LCD fitted which is temperature sensitive so you need to be a bit careful when removing and reflowing the new conectors.  I place the waveshare LCD down on a block of metal to keep the LCD cool as I used a hot air gun to remove the connector. A further complication once you have the connectors swapped is the cables are tiny.  Making up cables needs, at least for my 66 year old eyes, a magnifing setup, tweezers and a lot of swearing.  As a consequnce I now don't replace the conector I just remove the right angle connector and solder the cables that come with the display directly to the PCB.  A bit of resin over the soldered joint holds it all in place.
 The final step is to put a power connection on to the Waveshare.  The LandySupply board provided a protected 5V supply that is fed to the Waveshare after the protection diode from the existing USB-C connection.  The design lets you plug in a USB-C cable while the 12V supply is still connected without damaging either the gauge or the attached computer.  This permits insitue reprogramming or monitoring of the gauge.
 Use a two pin JST plug and connect the positive wire to the end of the Waveshare protection diode, D3 at it's connection with R3, being careful not to short both ends of the resistor. The negative (GND) connects to the ground pad of the I2C connector (which you have removed)
 You now have a Waveshare display with three cables attached one 4 way for I2C, a second 4 way for IO and a 2 way for the power.  These need to be about 50mm long.  The connector for the I2C and IO come with the Waveshare and you can buy made up cables for the two way from Amazon.  I recomend doing that rather than buying a connector kit.  Been there done that...
 
+**A note for tinkerers** - Connecting the supply in this way creates a safe supply for the Waveshare but it does bypass the charging facility built in to the Waveshare.  If you want to use the backup battery with charging from 12V as well as from USB-C then you can connect to the other side of D3.  The 12V will now charge the optional backup battery as well but you MUST disconnect the 12V supply from the gauge before plugging in the USB-C or you can potentially damage your computer.  Given that my Landrover has a big old lead acid starter battery the optional waveshare battery is a bit pointless.
+
 ### 3. Case Printing
 
-Print the gauge case using the provided STL files. Recommended settings:
-- Material: PLA or PETG
-- Layer height: 0.2mm
+Print the gauge case using the provided OBJ files. Recommended settings:
+- Material: PETG with default setting.  Other materials such as PLA work fine too.
+- Layer height: 0.16mm
 - Infill: 20%
+The back needs support and benifits from using an interface layer for clean removal.
+The bezel can be printed in teh same material for a one time assembly.  If repeated assemble/disassembly is anticipated use a firm TPU (like Bambu TPU for AMS) for the bezel.  The Button Plug also works best in TPU for AMS.
+
+The expansion board case can be printed in any material.  I used PA6-GF as I used this for the Fan relay box that lives in the engine bay.   
+
 
 ### 4. Firmware Flashing
 
